@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
 
-<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.0.0" provider-name="Stratos/Stock">
+<addon id="plugin.video.stratos" name="FLIX PRIME PLUS" version="1.0.1" provider-name="Stratos/Stock">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.22.0"/>
@@ -15,6 +15,10 @@
         <summary>Extension Vidéo Stratos</summary>
         <description>Le plugin pour regarder vos contenus.</description>
         <platform>all</platform>
+        <assets>
+            <icon>plugin.video.stratos/icon.png</icon>
+            <fanart>plugin.video.stratos/fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
@@ -30,6 +34,10 @@
         <summary>Dépôt Officiel Stratos</summary>
         <description>Source de mise à jour pour Flemmix.</description>
         <platform>all</platform>
+        <assets>
+            <icon>repository.stratos/icon.png</icon>
+            <fanart>repository.stratos/fanart.jpg</fanart>
+        </assets>
     </extension>
 </addon>
 
